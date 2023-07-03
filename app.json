@@ -5,6 +5,25 @@
       "bundler": "metro"
     },
     "name": "expo-router-test",
-    "slug": "expo-router-test"
+    "slug": "expo-router-test",
+    "ios": {
+      "splash": {
+        "backgroundColor": "#ff0000",
+        "dark": {
+          "backgroundColor": "#0000ff"
+        }
+      },
+      "bundleIdentifier": "com.developer.isdecisions.exporoutertest"
+    },
+    "android": {
+      "splash": {
+        "backgroundColor": "#ff0000",
+        "dark": {
+          "backgroundColor": "#0000ff"
+        }
+      },
+      "package": "com.developer.isdecisions.exporoutertest"
+    },
+    "userInterfaceStyle": "automatic"
   }
 }
